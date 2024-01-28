@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ChatServer",
+            "request": "launch",
+            "mainClass": "server.ChatServer",
+            "projectName": "ChatProgram",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChatClient",
+            "request": "launch",
+            "mainClass": "client.ChatClient",
+            "projectName": "ChatProgram",
+            "cwd": "${workspaceFolder}",
+            "vmArgs": "--module-path C:/penjfx-21.0.2_windows-x64_bin-sdk/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
